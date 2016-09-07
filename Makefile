@@ -424,7 +424,7 @@ KBUILD_CPPFLAGS += -DDRV_BUILD_SEPARATE
 endif
 OBB_PRODUCT_NAME = hi3630_udp
 ifneq ($(findstring hi3630, $(OBB_PRODUCT_NAME) ),)
-BALONG_TOPDIR = $(CURDIR)/drivers/vendor/hisi
+BALONG_TOPDIR = $(CURDIR)/../drivers/vendor/hisi
 OBB_PRODUCT_NAME = hi3630_udp
 CFG_PLATFORM = hi3630
 TARGET_ARM_TYPE = arm
